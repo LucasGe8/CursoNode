@@ -1,3 +1,4 @@
+
 const myWebAddress = "instagram.com/lukasg8_"
 const myNumber = 30
 const myArray = [10, 20, 30]
@@ -22,6 +23,23 @@ const group2 = {
 /* Exportamos */
 module.exports = group;
 
+
+/* También se puede exportar de esta forma: */
+module.exports.user = user;
+module.exports.myNumber = myNumber;
+module.exports.myArray = myArray;
+module.exports.myWebAddress = myWebAddress;
+
 /* Incluso se puede exportar sin la necesidad de meterlo en una constante o variable, se puede crear el grupo dentro de la declaración por ejemplo */
+
+/* Además esta es la forma más utilizada generalmente */
+module.exports = { 
+    myWebAddress,
+    myNumber,
+    myArray,
+    user
+}
+
+/* Obs: Si no se quiere compartir algo en específico simplemente no hay que exportarlo */
 
 /* console.log(module) */
