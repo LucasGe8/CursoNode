@@ -16,8 +16,10 @@ const server = http.createServer((request, response) => {
   response.write(`           
         <h1>Not Found</h1>
         <p>No encontramos la pagina que estabas buscando</p>
+        <img src="https://i.pinimg.com/736x/f0/2c/f2/f02cf231501047982a7cd7f2dea40144.jpg" alt = "Imagen" style = "width:auto; height:200px">
+        <br>
         <a href="/">Volver a la pagina principal</a>
-        <img src="https://i.pinimg.com/736x/f0/2c/f2/f02cf231501047982a7cd7f2dea40144.jpg" alt = "Imagen">`); /* Con `` se pueden crear strings de varias lineas */
+        `); /* Con `` se pueden crear strings de varias lineas */
   response.end();
 });
 
