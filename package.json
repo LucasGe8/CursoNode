@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "divaca": "cowsay Hola Mundo"
   }
 }
