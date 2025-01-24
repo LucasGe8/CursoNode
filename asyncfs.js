@@ -34,10 +34,10 @@ fs.readFile("./data/first.txt", "utf-8", (error, data) => {
                 console.log(error);
                 console.log(data);
               }
-            )
+            );
           }
-        )
+        );
       }
-    )
-  })
-})
+    );
+  });
+});
